@@ -52,7 +52,7 @@ def  TAS():
 def GS():
     print(' 1.headwind \n 2.tailwind \n ')
     choice =input()
-    tas = input('what is your true airspeed \n')
+    tas = input('what is your true airspeed in kts \n')
     if choice == '1':
      tailwind=input('what headwind component do you have ?')
     groundspeed = float(tas) - float(tailwind)
